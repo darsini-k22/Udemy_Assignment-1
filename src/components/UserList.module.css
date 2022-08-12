@@ -1,0 +1,11 @@
+.userlist{
+    @apply my-12 mx-auto max-w-2xl w-11/12 p-2
+}
+
+.userlist ul{
+    @apply list-none p-1
+}
+
+.userlist li{
+    @apply p-2 border-2 mt-2  font-bold cursor-pointer
+}

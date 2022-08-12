@@ -1,0 +1,27 @@
+.error-bg {
+  @apply fixed top-0 left-0 w-full h-screen z-10 backdrop-blur-md 
+}
+
+.card{
+    @apply max-w-none -translate-x-1/2 bg-white -translate-y-1/2 top-1/2 left-1/2  z-40 fixed
+}
+
+.card header{
+    @apply  bg-purple-900 rounded-t-xl  py-2 px-2
+}
+
+.card h2{
+    @apply  text-white text-lg
+}
+
+.error-msg{
+    @apply font-bold p-4
+}
+
+.card footer{
+    @apply items-center justify-center text-right p-6
+}
+
+.card button{
+    @apply bg-purple-900 px-5 py-1 text-white
+}
